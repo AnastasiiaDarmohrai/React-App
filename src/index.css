@@ -1,0 +1,260 @@
+
+.navigation{
+  margin-right: 200px;
+
+}
+nav {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.86);
+  box-shadow: 0 3px 5px rgba(64, 9, 70, 0.1);
+
+}
+.logo{
+  display: flex;
+  margin-left:120px;
+
+}
+.logoText{
+  font-size: 50px;
+  font-family: "Lavanderia Regular";
+}
+.img{
+  width: 100%;
+  height: 900px;
+
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  align-content: center;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 0;
+  padding-right: 0;
+}
+.centered {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.h1haas{
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-size: 80px;
+}
+.h5main{
+  padding: 0px;
+  font-family: Universal;
+  font-size: 30px;
+}
+
+nav a {
+  color: black;
+  font-size: 30px;
+  transition: 0.3s;
+  font-family: "Neue Haas Grotesk Display Pro";
+  text-decoration: none;
+}
+nav a:hover {
+  color: #8b0046;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.9rem;
+  text-decoration: none;
+  list-style-type: none;
+}
+.headerwrapper{
+  padding: 50px;
+}
+
+.button{
+  background-color: #da8282;
+  color: white;
+  color: #ffffff;
+  height: 30px;
+  width: 80px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  padding: 6px;
+  align-content: space-between;
+}
+.button:hover{
+  animation: bounce 1s;
+  background-color: #852744;
+}
+.but-div{
+  margin: 0 10px 0 0;
+}
+/*Second block*/
+.wrapper {
+  padding-left: 100px;
+  padding-right: 100px;
+  /*margin-left: 70px;*/
+  /*margin-right: 80px;*/
+
+}
+.zagol{
+  font-size: 40px;
+  font-family:"Neue Haas Grotesk Display Pro";
+  align-content: center;
+}
+.zagol2{
+  font-size: 28px;
+  font-family:"Neue Haas Grotesk Display Pro";
+  align-content: center;
+}
+
+.elips{
+  height: 290px;
+  width: 290px;
+  border-radius: 100%;
+  background-color: #f8b95f;
+
+}
+.tableblock{
+  display: flex;
+  align-content: space-between;
+  padding-right: 170px;
+  padding-left: 170px;
+  justify-content: space-between;
+}
+.innerblock
+{
+  padding: 10px;
+}
+
+.elipswrap{
+  display: flex;
+  align-content: space-between;
+  justify-content: space-around;
+  padding: 40px;
+
+
+}
+
+.parent {
+  position: relative;
+  height: 290px;
+  width: 290px;
+
+  border-radius: 100%;
+}
+.child {
+  position: absolute;
+  /* ширина и высота 2 блока в % */
+  height: 50%;
+  width: 50%;
+  /* Значения определяются в зависимости от его размера в % */
+  left: 25%; /* (100% - width) / 2 */
+  top: 20%;  /* (100% - height) / 2 */
+
+}
+.iconsize{
+  height: 140px;
+  width: 150px;
+}
+
+
+.login{
+  font-size: 14px;
+}
+.block{
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  top:0%;
+  color: white;
+  background: rgba(108, 46, 46, 0.7);
+  padding-top:90px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display:none;
+  border-radius: 90%;
+  font-size: 15px;
+  font-family:"Neue Haas Grotesk Display Pro";
+  text-align: center;
+
+}
+t{
+  position: absolute;
+  padding-top: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+.parent:hover .block{
+  display:flex;
+}
+.hicon{
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-weight: lighter;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+
+}
+table{
+  width: 90%;
+}
+td{
+  padding: 20px;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-size: 18px;
+  vertical-align: top;
+}
+
+
+/*Footer*/
+
+footer{
+  background-color: #171212;
+  color: dimgrey;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-size: 24px;
+
+}
+
+.footer-wrap{
+  margin-left: auto;
+  margin-right: auto;
+  alignment: center;
+  display: flex;
+  padding-left: 0;
+  align-content: space-between;
+  /* justify-content: space-around;*/
+}
+.sots{
+  display: flex;
+}
+
+.wrap-footermenu{
+  display: flex;
+  margin-left:126px;
+
+}
+.menuitem{
+  padding: 40px;
+
+}
+.menuitem2{
+  margin-left:140px;
+
+}
