@@ -23,11 +23,6 @@ const Header = () => {
                         </ul>
                     </nav>
 
-                 {/*<Modal isVisible={true}>*/}
-                 {/*       <View>*/}
-                 {/*           <Text> Модальне Вікно!</Text>*/}
-                 {/*       </View>*/}
-                 {/*</Modal>*/}
 
                 </div>
             </header>
