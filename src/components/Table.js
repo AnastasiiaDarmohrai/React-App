@@ -3,7 +3,6 @@ import TableDataList from "./TableDataList";
 const Table = ({data}) =>{
     return(
         <>
-            {/*<br/>*/}
             <TableDataList data={data}/>
         </>
     );
