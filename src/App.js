@@ -16,11 +16,11 @@ import AboutUs from "./pages/AboutUs";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
-import BasicModal from "./components/ModalWindow";
+
 
 function App() {
-    const [data,setdata] = useState(TriggerData)
-    const[tabledata,settabledata] = useState(TableData)
+    const [data] = useState(TriggerData)
+    const[tabledata] = useState(TableData)
     console.log("App",data)
   return (
      <BrowserRouter>
