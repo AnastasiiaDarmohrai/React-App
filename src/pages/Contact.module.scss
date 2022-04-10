@@ -1,0 +1,54 @@
+.parent{
+  @apply flex items-center justify-center  h-screen bg-red-200;
+
+  .card{
+    @apply bg-white py-9 rounded-md px-10 max-w-lg shadow-2xl;
+
+    .h1{
+      @apply text-center text-lg font-bold text-black;
+    }
+    .space{
+      @apply space-y-6 mt-10;
+
+      .w{
+        @apply w-full;
+
+        .input{
+          @apply px-5 py-2 bg-gray-50 input-sm;
+        }
+
+        .input1{
+          @apply px-5 py-2 bg-gray-50 input-md
+        }
+      }
+
+
+    }
+
+    .button{
+      @apply btn  bg-red-300 btn-outline btn-error bg-origin-padding w-full mt-5
+    }
+  }
+
+
+  .basement {
+    @apply footer mt-auto items-center p-4 bg-neutral text-neutral-content flex justify-between;
+
+    .copyright {
+      @apply items-center grid-flow-col space-y-6 ;
+    }
+
+    .socialicons {
+      @apply grid-flow-col gap-6 place-self-center justify-self-end;
+    }
+  }
+
+
+
+}
+.rating1{
+  @apply rating flex items-center justify-center space-x-5 top-3
+}
+.star{
+  @apply mask mask-heart bg-red-400
+}
