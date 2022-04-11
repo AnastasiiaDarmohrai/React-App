@@ -1,5 +1,3 @@
-// rsc
-
 import React from 'react';
 // import "tailwindcss/tailwind.css";
 
@@ -18,7 +16,7 @@ const AboutUs = () => {
                 </div>
             </div>
 
-            <a className="link link-secondary">I'm a simple link</a>
+
         </div>
     );
 };
