@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "./Contact.module.scss"
 import {SiFacebook, SiTwitter, SiYoutube} from "react-icons/si";
-    // import "tailwindcss/tailwind.css";
+   // import "tailwindcss/tailwind.css";
 
 const Contact = () => {
     return (

@@ -1,7 +1,7 @@
 // rsc
 
 import React from 'react';
- // import "tailwindcss/tailwind.css";
+// import "tailwindcss/tailwind.css";
 
 const AboutUs = () => {
     return (
@@ -17,7 +17,6 @@ const AboutUs = () => {
                     <p>tabindex="0" attribute is necessary to make the div focusable</p>
                 </div>
             </div>
-
 
             <a className="link link-secondary">I'm a simple link</a>
         </div>
