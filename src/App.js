@@ -12,9 +12,9 @@ import {
     Routes,
     Route,
 } from "react-router-dom"
-import AboutUs from "./pages/AboutUs";
+import AboutUs from "./pages/AboutUs/AboutUs";
 import Services from "./pages/Services";
-import Contact from "./pages/Contact";
+import Contact from "./pages/Contact/Contact";
 import Login from "./pages/Login";
 
 
